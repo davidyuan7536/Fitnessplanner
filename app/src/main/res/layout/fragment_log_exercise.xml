@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context="com.example.davidyuan7536.workoutlog.LogExerciseFragment">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Set"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/logExerciseAddSet"
+        android:background="@color/greyPrimary"
+        android:textColor="@color/textColorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/logExerciseAddSet"
+        android:layout_above="@+id/logExerciseSaveDeleteHolder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exercise Name"
+            android:id="@+id/logExerciseExerciseName"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/logExerciseSets">
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logExerciseCancelBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:id="@+id/logExerciseSaveDeleteHolder">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/logExerciseSaveBtn"
+            android:background="@color/greyPrimary"
+            android:textColor="@color/textColorPrimary"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:id="@+id/logExerciseDeleteBtn"
+            android:background="@color/maroonPrimary"
+            android:textColor="@color/textColorPrimary"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:background="@color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/logExerciseCancelBtn" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/workoutListAvatar"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/profile_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="User Name"
+            android:id="@+id/workoutListUserName"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/workoutListAvatar"
+            android:layout_toEndOf="@+id/workoutListAvatar"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Workout Title"
+            android:id="@+id/workoutListWorkoutTitle"
+            android:layout_alignBottom="@+id/workoutListAvatar"
+            android:layout_toRightOf="@+id/workoutListAvatar"
+            android:layout_toEndOf="@+id/workoutListAvatar"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/widgetSeparator"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/workoutListFragContainer">
+
+    </LinearLayout>
+
+</LinearLayout>

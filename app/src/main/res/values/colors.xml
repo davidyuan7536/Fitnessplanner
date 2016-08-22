@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="maroonPrimary">#ff3366</color>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="tabSelected">#c8e8ff</color>
+    <color name="tabUnselected">#000000</color>
+    <color name="widgetSeparator">#424242</color>
+    <color name="homeFeedUserHeaderBackground">#424242</color>
+    <color name="greyPrimary">#424242</color>
+</resources>

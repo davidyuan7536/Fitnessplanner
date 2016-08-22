@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/homeActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_chrome_reader_mode_black_24dp"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    <ImageButton
+        android:id="@+id/notificationActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_favorite_border_black_24dp"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+
+    <ImageButton
+        android:id="@+id/profileActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_person_black_24dp"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+</LinearLayout>

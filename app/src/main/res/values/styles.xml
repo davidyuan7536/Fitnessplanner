@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/greyPrimary</item>
+        <item name="colorControlHighlight">@color/greyPrimary</item>
+        <item name="colorControlActivated">@color/greyPrimary</item>
+        <item name="editTextStyle">@style/MyEditText</item>
+    </style>
+
+
+    <style name="MyEditText" parent="Widget.AppCompat.EditText">
+        <item name="colorAccent">@color/greyPrimary</item>
+        <item name="colorControlNormal">@color/greyPrimary</item>
+        <item name="colorControlHighlight">@color/greyPrimary</item>
+        <item name="colorControlActivated">@color/greyPrimary</item>
+    </style>
+
+</resources>
